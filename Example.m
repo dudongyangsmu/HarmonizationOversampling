@@ -179,7 +179,7 @@ for iter = 1  % outer repeated 5 times, iter defines the times of external testi
 
               %%  built model and valid
                 for C=1:5
-                    listclassifier = {'LR','LDA','NB','RF','SVM'};
+                    listclassifier = {'LR','LDA','RF','SVM'};
                     classification_method = listclassifier{C};
                     disp(['Classification Method is',' ',classification_method]);
                     switch classification_method
